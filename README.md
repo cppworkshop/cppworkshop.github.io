@@ -43,3 +43,16 @@ wie ; und " nicht Probleme bereiten beim einlesen der Datei. Diese lassen mit Fu
 base64.hpp und base64.cpp dekodieren.
 
 
+## Folien und Beispiele
+
+[**Folien**](https://raw.githubusercontent.com/cppworkshop/cppworkshop.github.io/master/workshop.pdf)
+
+### Beispiele
+
+[Hello World](https://raw.githubusercontent.com/cppworkshop/cppworkshop.github.io/master/hello_world.cpp)
+
+[If-Else](https://raw.githubusercontent.com/cppworkshop/cppworkshop.github.io/master/n_if.cpp)
+
+[While](https://raw.githubusercontent.com/cppworkshop/cppworkshop.github.io/master/fib_while.cpp)
+
+[Iterieren und Vektoren](https://raw.githubusercontent.com/cppworkshop/cppworkshop.github.io/master/iterate.cpp)
