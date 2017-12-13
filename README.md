@@ -19,7 +19,16 @@
 ## Daten
 [Testdaten CSV](https://www.dropbox.com/s/giejwiyz60a8prb/wdata_extended.csv?dl=1)
 
-## Datenstruktur
+## Datenformat
+In der Datei wdata.csv sind Facebook-Kommentare der 10 größten deutschen Facebook-Setien der letz-
+ten paar Jahre enthalten.
+
+**Datenformat 1.1.** Das Datenformat (CSV) der Spieldaten ist ein sehr simples, aber weit verbeitetes. Es
+ist bietet sich häufig an z. B. Messdaten zunächst als CSV-Datei abzulegen, um sie anschließend weiterzu-
+verarbeiten. Die Daten im CSV-Format bestehen aus einer festen Anzahl Spalten und beliebig vielen Zeilen.
+Die Zellen jeder Zeile sind durch einen (vorher festgelegten) Delimiter getrennt, die Zeilen durch einen
+Zeilenumbruch (’\n’). Das Format das Spieldaten ist folgendermaßen strukturiert:
+
 
 | Delimiter ,        |||
 | ------------- |:-------------:| -----:|
@@ -41,5 +50,8 @@ Eine Zeile in der Datei sähe daher so aus:
 2017-07-26 15:22:29,QXJtaW4gS3JhZnQ=,10214827725509292,193081554406_10155043685614407,
 tagesschau,5136,video,2017-02-02 04:30:00`
 
+**Datenformat 1.2.** Die Kommentare selbst sind Base64 enkodiert, damit eventuell auftauchende Zeichen
+wie ; und " nicht Probleme bereiten beim einlesen der Datei. Diese lassen mit Funktionen aus den Dateien
+base64.hpp und base64.cpp dekodieren.
 
 
