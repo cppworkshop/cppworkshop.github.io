@@ -1,4 +1,4 @@
-# C++ Workshop Wintersemester 17/18
+# C++ Workshop Wintersemester 18/19
 ## Source Code
 [Base64 Decoder Header](https://raw.githubusercontent.com/cppworkshop/cppworkshop.github.io/master/base64.hpp)
 
