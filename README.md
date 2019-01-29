@@ -45,7 +45,7 @@ base64.hpp und base64.cpp dekodieren.
 
 ## Folien und Beispiele
 
-[**Folien**](https://raw.githubusercontent.com/cppworkshop/cppworkshop.github.io/master/workshop.pdf)
+[Folien](https://raw.githubusercontent.com/cppworkshop/cppworkshop.github.io/master/workshop.pdf)
 
 ### Beispiele
 
